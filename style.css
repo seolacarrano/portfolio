@@ -214,7 +214,8 @@ a {
 input {
  display: flex;
  align-content: center;
- width: 600px;
+ width: 100%;
+ max-width: 600px;
  height: 50px;
  background: transparent;
  outline: none;
@@ -231,7 +232,8 @@ input:hover {
 textarea {
  display: flex;
  align-content: center;
- width: 600px;
+ width: 100%;
+ max-width: 600px;
  height: 110px;
  max-height: 110px;
  background: transparent;
