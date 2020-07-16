@@ -31,6 +31,10 @@ li {
     margin-right: 30px;
 }
 
+li:hover {
+    font-size: x-large;
+}
+
 .link {
     display: block;
 }
@@ -90,9 +94,17 @@ a {
     padding-bottom: 50px;
 }
 
-.linktoproject {
+.fa-codepen {
+    display: flex;
+    justify-content: center;
     color: black;
+    text-align: center;
 }
+
+.fa-codepen:hover {
+    font-size: xxx-large;
+}
+
 /*grid*/
 #projectpreview {
     display: block;
@@ -126,16 +138,6 @@ a {
     font-weight: 300;
 }
 
-#contactform {
-    text-align: center;
-    font-family: 'Roboto Mono', monospace;
-}
-
-#iframe {
-    display: flex;
-    width: 100%;
-    height: 520px;
-}
 
 /*carousel*/
 .slider {
@@ -202,170 +204,92 @@ a {
 
 
 /*Google contact form style*/
-
-input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-  color: #aca49c;
-  font-size: 0.875em;
+#mG61Hd {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-bottom: 30px;
 }
 
-input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
-  color: #bbb5af;
+input {
+ display: flex;
+ align-content: center;
+ width: 600px;
+ height: 50px;
+ background: transparent;
+ outline: none;
+ border: solid 1px #b8bedd;
+ border-bottom: none;
+ transition: all 0.3s ease-in-out;
 }
 
-input::-moz-placeholder, textarea::-moz-placeholder {
-  color: #aca49c;
-  font-size: 0.875em;
+input:hover {
+ background: #f0e6ef;
+ color:#b8bedd;
 }
 
-input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
-  color: #bbb5af;
+textarea {
+ display: flex;
+ align-content: center;
+ width: 600px;
+ height: 110px;
+ max-height: 110px;
+ background: transparent;
+ outline: none;
+ color: #726659;
+ font-family: sans-serif;
+ font-size: 0.875em;
+ border: solid 1px#b8bedd;
+ transition: all 0.3s ease-in-out;
+ }
+  
+textarea:hover {
+ background:#f0e6ef;
+ color: #e2dedb;
+}
+ 
+#submit {
+ width: 50px;
+ font-family: 'Roboto Mono', monospace;
+ font-size: 0.875em;
+ text-align: right;
+ color: #b3aca7;
+ outline:none;
+ cursor: pointer;
+ border: solid 1px #b8bedd;
+ margin: auto;
+ margin-top: 10px;
+}
+  
+#submit:hover {
+ background: #b8bedd;
 }
 
-input::placeholder, textarea::placeholder {
-  color: #aca49c;
-  font-size: 0.875em;
+
+/*social media icons in footer*/
+footer {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    background: #f0e6ef;
 }
 
-input:focus::placeholder, textarea::focus:placeholder {
-  color: #bbb5af;
+.fa-envelope {
+    color: red;
+    margin-right: 20px;
+    margin-top: 20px;
 }
 
-input::-ms-placeholder, textarea::-ms-placeholder {
-  color: #aca49c;
-  font-size: 0.875em;
+.fa-linkedin {
+    color: #2867B2;
+    margin-right: 20px;
+    margin-top: 20px;
 }
 
-input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
-  color: #bbb5af;
+.fa-github {
+    color: black;
+    margin-top: 20px;
 }
-
-/* on hover placeholder */
-
-input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
-    color: #e2dedb;
-    font-size: 0.875em;
-  }
-  
-  input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
-    color: #cbc6c1;
-  }
-  
-  input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
-    color: #e2dedb;
-    font-size: 0.875em;
-  }
-  
-  input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
-    color: #cbc6c1;
-  }
-  
-  input:hover::placeholder, textarea:hover::placeholder {
-    color: #e2dedb;
-    font-size: 0.875em;
-  }
-  
-  input:hover:focus::placeholder, textarea:hover:focus::placeholder {
-    color: #cbc6c1;
-  }
-  
-  input:hover::placeholder, textarea:hover::placeholder {
-    color: #e2dedb;
-    font-size: 0.875em;
-  }
-  
-  input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
-    color: #cbc6c1;
-  }
-  /*
-  body {
-    font-family: 'Lato', sans-serif;
-    background: #e2dedb;
-    color: #b3aca7;
-  }
-  
-  header {
-    position: relative;
-    margin: 100px 0 25px 0;
-    font-size: 2.3em;
-    text-align: center;
-    letter-spacing: 7px;
-  }*/
-  
-  #mG61Hd {
-    position: relative;
-    width: 370px;
-    margin: 50px auto 100px auto;
-  }
-  
-  input {
-    width: 336px;
-    height: 50px;
-    padding: 0px 15px 0px 15px;
-    background: transparent;
-    outline: none;
-    color: #726659;
-    border: solid 1px #b3aca7;
-    border-bottom: none;
-    transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-  }
-  
-  input:hover {
-    background: #b3aca7;
-    color: #e2dedb;
-  }
-  
-  textarea {
-    width: 336px;
-    max-width: 360px;
-    height: 110px;
-    max-height: 110px;
-    padding: 15px;
-    
-    background: transparent;
-    outline: none;
-    
-    color: #726659;
-    font-family: 'Lato', sans-serif;
-    font-size: 0.875em;
-    
-    border: solid 1px #b3aca7;
-    
-    transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-  }
-  
-  textarea:hover {
-    background: #b3aca7;
-    color: #e2dedb;
-  }
-  
-  #submit {
-    width: 367px;
-    
-    padding: 0;
-    margin: -5px 0px 0px 0px;
-    
-    font-family: 'Lato', sans-serif;
-    font-size: 0.875em;
-    color: #b3aca7;
-    
-    outline:none;
-    cursor: pointer;
-    
-    border: solid 1px #b3aca7;
-    border-top: none;
-  }
-  
-  #submit:hover {
-    color: #e2dedb;
-  }
-
-
 
 
 /*responsive*/
@@ -387,6 +311,20 @@ input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholde
    
      #projectpreview {
          display: none;
+     }
+
+     input {
+         width: 300px;
+         margin: 0 15 0 15;
+     }
+     textarea {
+         width: 300px;
+         margin: 0 15 0 15;
+     }
+     #submit {
+        width: 50px;
+        margin: auto;
+        margin-top: 10px;
      }
 
 }
