@@ -9,16 +9,14 @@
 |Day 3| MVP | Complete
 |Day 4| post MVP & Bug Fixes | Complete
 |Day 5| Final Touches  | Complete
-|Day 6| Present  | Incomplete
+|Day 6| Present  | Complete
 
 
 ## Project Description
 It is a portfolio that shows my profile, projects and contact information.
 This portfolio is responsive to different devices such as mobile, tablet, and desktop. I'm going to use HTML, CSS and JavaScript jQuery for this project.
 
-## Google Sheet
 
-[Google Sheet](https://docs.google.com/spreadsheets/d/17pKLKcKpLI0lPHyigkDAjgCk2h_nSYcLOziO22KOGRQ/edit?usp=sharing)
 
 ## Wireframes
 
@@ -88,13 +86,15 @@ This portfolio is responsive to different devices such as mobile, tablet, and de
  6. hamburger icon HTML&CSS: https://www.youtube.com/watch?v=1GeSOP7kHuw
 
 ## Code Snippet
-
+```
  $div.append($('<a>').addClass("linktoproject").attr('href', project.url).html('<i class="fab fa-codepen fa-2x"></i>'))
  $('.linktoproject').attr('target', '_blank') 
+ 
+ ```
     
  jQuery is still intimidating but I spent some time reading about it to add icon and I was able to do it! 
  Also, I was able to open a link in a new tab by using .attr('target', '_blank')
- 
+
 
 ## Issues and Resolutions
 **ERROR**: I didn't get any error message regarding this problem, but when I tried to use Bootstrap for carousel, my CSS was broken down
