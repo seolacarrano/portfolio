@@ -78,18 +78,15 @@ This portfolio is responsive to different devices such as mobile, tablet, and de
 | total | L | 5hrs | 5hr | 5hr|
 
 ## Additional Libraries
- 1. hamburger icon: https://graphemica.com
- 2. social media icons: https://fontawesome.com
- 3. carousel: https://css-tricks.com/css-only-carousel
- 4. Google form: https://www.youtube.com/watch?v=0ZobsvqYA94 / https://codepen.io/matmarsiglio/pen/HLIor
- 5. jQuery for Project: https://git.generalassemb.ly/seolacarrano/JSON-and-jQuery
- 6. hamburger icon HTML&CSS: https://www.youtube.com/watch?v=1GeSOP7kHuw
+ - [jQuery](https://jquery.com/)
+ - [Graphemica](https://graphemica.com/)
+ - [FontAwesome](https://fontawesome.com/)
 
 ## Code Snippet
 ```
  $div.append($('<a>').addClass("linktoproject").attr('href', project.url).html('<i class="fab fa-codepen fa-2x"></i>'))
  $('.linktoproject').attr('target', '_blank') 
- 
+
  ```
     
  jQuery is still intimidating but I spent some time reading about it to add icon and I was able to do it! 
@@ -97,8 +94,8 @@ This portfolio is responsive to different devices such as mobile, tablet, and de
 
 
 ## Issues and Resolutions
-**ERROR**: I didn't get any error message regarding this problem, but when I tried to use Bootstrap for carousel, my CSS was broken down
-**RESOLUTION**: I used CSS and HTML instead.
+**ERROR**: I didn't get any error messages regarding this problem, but when I tried to use Bootstrap for carousel, my CSS was broken down
+**RESOLUTION**: I could've use id to customize Bootstrap, but I decided to use CSS and HTML only.
 
 ## final design
 - [mobile](https://res.cloudinary.com/dqduwnrb1/image/upload/v1595014572/mobile_ykyoyf.jpg)
