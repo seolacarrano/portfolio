@@ -1,5 +1,8 @@
 # Project Overview
 
+## Link 
+- [Portfolio](https://seolacarrano-portfolio.netlify.app/)
+
 ## Project Schedule
 
 |  Day | Deliverable | Status
